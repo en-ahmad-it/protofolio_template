@@ -55,10 +55,10 @@ menuLinks.forEach(link => {
 
 
 
-// ===== Scroll To Top Button =====
 const scrollTopBtn = document.getElementById("scrollTopBtn");
 
 window.addEventListener("scroll", () => {
+  // إذا كان التمرير أكثر من 200px أظهر الزر
   if (window.scrollY > 200) {
     scrollTopBtn.classList.add("show");
   } else {
