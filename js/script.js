@@ -41,3 +41,34 @@ breakpoints:{
     },
 }
 });
+
+
+
+// Close menu when clicking any link
+const menuLinks = document.querySelectorAll("#links a");
+
+menuLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    navlinks.classList.remove("active");
+  });
+});
+
+
+
+// ===== Scroll To Top Button =====
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 200) {
+    scrollTopBtn.classList.add("show");
+  } else {
+    scrollTopBtn.classList.remove("show");
+  }
+});
+
+scrollTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
