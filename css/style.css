@@ -842,3 +842,36 @@ background-color: var(--border_color);
   background-color: #0e697098;
   transform: scale(1.2);
 }
+
+
+/* Swiper Arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--border_color);
+}
+
+/* Hide Swiper arrows on mobile */
+@media screen and (max-width: 768px  ) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important ;
+  }
+
+  /* Optional: move scroll top button if needed */
+  #scrollTopBtn {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 500px  ) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important ;
+  }
+
+  /* Optional: move scroll top button if needed */
+  #scrollTopBtn {
+    bottom: 20px;
+    right: 20px;
+  }
+}
