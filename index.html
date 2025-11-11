@@ -1,246 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahmad It</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="icon" href="images/logo.jfif">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-</head>
-<body>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
-<div class="bg-lines">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-   <header>
-    <nav class="container">
-        <a href="#" class="logo"> <h1 style="font-size: 30px; display: inline;
-         color:rgb(255, 255, 255);">EN</h1><h2>Ahmad It </h2></a>
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.jfif" />
+
+    <!-- JS -->
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="bg-lines">
+      <span></span><span></span><span></span><span></span><span></span
+      ><span></span><span></span><span></span><span></span>
+    </div>
+
+    <header>
+      <nav class="container">
+        <a href="#" class="logo">
+          <h1
+            style="font-size: 30px; display: inline; color: rgb(255, 255, 255)"
+          >
+            EN
+          </h1>
+          <h2>Ahmad It</h2>
+        </a>
         <div class="links" id="links">
-            <span
-                        onclick="openCloseMenu()"
+          <span onclick="openCloseMenu()" class="close-menu"
+            ><i class="fa-solid fa-xmark"></i
+          ></span>
+          <a href="#" class="logo">
+            <h1
+              style="
+                font-size: 30px;
+                display: inline;
+                color: rgb(255, 255, 255);
+              "
+            >
+              EN
+            </h1>
+            <h2>Ahmad It</h2>
+          </a>
 
-            class="close-menu"><i class="fa-solid fa-xmark"></i></span>
-        <a href="#" class="logo"> <h1 style="font-size: 30px; display: inline;
-         color: rgb(255, 255, 255);">EN</h1><h2>Ahmad It </h2></a>
-
-            <a href="#" class="active">Home</a>
-            <a href="#about" >About</a>
-            <a href="#service" >services</a>
-            <a href="#projects" >Projects</a>
-            <a href="#contact" >Contact</a>
+          <a href="#" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#service">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
         </div>
         <div class="icons">
-            <a href="#" class="active"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <span class="icon-menu" 
-            onclick="openCloseMenu()"
-            ><i class="fa-solid fa-bars"></i></span>
+          <a href="https://www.facebook.com/share/1F6qcxatF2/" class="active"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a
+            href="https://www.instagram.com/ahmad_esmail_it?igsh=MWFqd2Rla2s0NTN6ZQ=="
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <span class="icon-menu" onclick="openCloseMenu()"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
         </div>
-    </nav>
-   </header> 
-<div class="hero">
-    <div class="container">
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="container">
         <div class="div-text">
-            <h4>Hello, I'M </h4>
-            <h1><span>Ahmad Ismail</span></h1>
-            <h2>Web Designer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repellendus possimus adipisci! Vel modi debitis porro nesciunt quo? Quidem, nulla.</p>
-        <div class="btns">
-       
-
-
-        </div>
+          <h4>Hello, I'M</h4>
+          <h1><span>Ahmad Ismail</span></h1>
+          <h2>Web Designer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            repellendus possimus adipisci! Vel modi debitis porro nesciunt quo?
+            Quidem, nulla.
+          </p>
         </div>
         <div class="div-img">
-            <img src="images/ahmad.png" class="person" alt="">
+          <img src="images/ahmad.png" class="person" alt="Ahmad" />
         </div>
+      </div>
     </div>
-</div>
-<section class="about" id="about">
-    <div class="container">
-        <div class="div-text">
-            <h5>about me</h5>
 
-            <h2><span>i am a Developer</span></h2>
-            <h4>i develop applecation that help people</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo totam maiores magnam cumque nisi ea sunt iusto exercitationem officiis, amet aliquid reiciendis doloremque aspernatur! Corporis.</p>
-     <ul>
-        <li><i class="fa-solid fa-check"></i>Web Developement</li>
-        <li><i class="fa-solid fa-check"></i>Mopil Aoolecation</li>
-        <li><i class="fa-solid fa-check"></i>Didital Markting</li>
-        <li><i class="fa-solid fa-check"></i>UI/UX Designer</li>
-    </ul>
-     <a href="images/Test.txt" download class="btn">Download CV</a>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="div-text">
+          <h5>About Me</h5>
+          <h2><span>I am a Developer</span></h2>
+          <h4>I develop applications that help people</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo totam
+            maiores magnam cumque nisi ea sunt iusto exercitationem officiis,
+            amet aliquid reiciendis doloremque aspernatur! Corporis.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Web Development</li>
+            <li><i class="fa-solid fa-check"></i> Mobile Application</li>
+            <li><i class="fa-solid fa-check"></i> Digital Marketing</li>
+            <li><i class="fa-solid fa-check"></i> UI/UX Design</li>
+          </ul>
+          <a href="images/Test.txt" download class="btn">Download CV</a>
         </div>
         <div class="div-img">
-            <img src="/images/ahmad.png" alt="">
+          <img src="images/ahmad.png" alt="About Image" />
         </div>
-    </div>
-</section>
-<section class="Skills" id="Skills">
-             <div class="container">
-                  <div class="top-section">
-   
-        <h2>My <span>Skills</span></h2>
+      </div>
+    </section>
 
-    </div>  
-    <div class="skillsContainer">
-        <h2 class="Centre">Skills Circle</h2>
-        <div class="carousel-container">
-            <img src="./images/AN.png" alt="">
-            <img src="./images/JS.png" alt="">
-            <img src="./images/java.png" alt="">
-            <img src="./images/bot.png" alt="">
-            <img src="./images/css.png" alt="">
-            <img src="./images/html.png" alt="">
-            <img src="./images/tail.jfif" alt="">
-            <img src="./images/hit.png" alt="">
-            <img src="./images/ccc.jfif" alt="">
-            <img src="./images/react.png" alt="">
+    <!-- Skills Section -->
+    <section class="Skills" id="Skills">
+      <div class="container">
+        <div class="top-section">
+          <h2>My <span>Skills</span></h2>
         </div>
-    </div>
-            </div>
-    
-</section>
-<section class="service" id="service">
-    <div class="container">
-    <div class="top-section">
-        <h2>Our <span>Services</span></h2>
-    </div>
-    <div class="boxs">
-        <div class="box">
+        <div class="skillsContainer">
+          <h2 class="Centre">Skills Circle</h2>
+          <div class="carousel-container">
+            <img src="images/AN.png" alt="" />
+            <img src="images/JS.png" alt="" />
+            <img src="images/java.png" alt="" />
+            <img src="images/bot.png" alt="" />
+            <img src="images/css.png" alt="" />
+            <img src="images/html.png" alt="" />
+            <img src="images/tail.jfif" alt="" />
+            <img src="images/hit.png" alt="" />
+            <img src="images/ccc.jfif" alt="" />
+            <img src="images/react.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="service" id="service">
+      <div class="container">
+        <div class="top-section">
+          <h2>Our <span>Services</span></h2>
+        </div>
+        <div class="boxs">
+          <div class="box">
             <i class="fa-solid fa-pen-ruler"></i>
             <h3>Web Design</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ipsam praesentium minima velit aspernatur! Veniam cupiditate cumque eveniet ratione asperiores.</p>
-   <a href="#" class="btn">Read More</a>
-        </div>
-        <div class="box">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Recusandae ipsam praesentium minima velit aspernatur! Veniam
+              cupiditate cumque eveniet ratione asperiores.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="box">
             <i class="fa-solid fa-rocket"></i>
             <h3>Web Design</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ipsam praesentium minima velit aspernatur! Veniam cupiditate cumque eveniet ratione asperiores.</p>
-   <a href="#" class="btn">Read More</a>
-        </div>
-        <div class="box">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Recusandae ipsam praesentium minima velit aspernatur! Veniam
+              cupiditate cumque eveniet ratione asperiores.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="box">
             <i class="fa-solid fa-code"></i>
             <h3>Web Design</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ipsam praesentium minima velit aspernatur! Veniam cupiditate cumque eveniet ratione asperiores.</p>
-   <a href="#" class="btn">Read More</a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Recusandae ipsam praesentium minima velit aspernatur! Veniam
+              cupiditate cumque eveniet ratione asperiores.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
         </div>
-    </div>
-    </div>
+      </div>
+    </section>
 
-</section>
-<section class="projects" id="projects">
-    <div class="container">
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
         <div class="top-section">
-            <h2>Explore my Popular
-                <span>projects</span>
-            </h2>
+          <h2>Explore my Popular <span>Projects</span></h2>
         </div>
 
-<div class="swiper">
-            <div class="card-wrapper">
+        <div class="swiper">
+          <div class="card-wrapper">
             <ul class="card-list swiper-wrapper">
-                <li class="card-item swiper-slide ">
-                    <a href="#" class="card-link">
-                        <img src="/images/ahmad.png" alt="Card Image" class="card-image">
-                        <p class="badge">Developer</p>
-                        <h2 class="card-title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id nisi labore minus magni blanditiis.
-                        </h2>
-         <button href="#" class="link card-button"><i class=" fa-solid fa-arrow-up"></i></button>
+              <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                  <img
+                    src="images/ahmad.png"
+                    alt="Card Image"
+                    class="card-image"
+                  />
+                  <p class="badge">Developer</p>
+                  <h2 class="card-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat id nisi labore minus magni blanditiis.
+                  </h2>
+                  <button href="#" class="link card-button">
+                    <i class="fa-solid fa-arrow-up"></i>
+                  </button>
+                </a>
+              </li>
 
-                    </a>
-                </li>
-                          <li class="card-item swiper-slide">
-                    <a href="#" class="card-link">
-                        <img src="/images/ahmad.png" alt="Card Image" class="card-image">
-                        <p class="badge">Developer</p>
-                        <h2 class="card-title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id nisi labore minus magni blanditiis.
-                        </h2>
-         <button href="#" class="link card-button"><i class=" fa-solid fa-arrow-up"></i></button>
+              <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                  <img
+                    src="images/ahmad.png"
+                    alt="Card Image"
+                    class="card-image"
+                  />
+                  <p class="badge">Developer</p>
+                  <h2 class="card-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat id nisi labore minus magni blanditiis.
+                  </h2>
+                  <button href="#" class="link card-button">
+                    <i class="fa-solid fa-arrow-up"></i>
+                  </button>
+                </a>
+              </li>
 
-                    </a>
-                </li>
-                          <li class="card-item swiper-slide">
-                    <a href="#" class="card-link">
-                        <img src="/images/ahmad.png" alt="Card Image" class="card-image">
-                        <p class="badge">Developer</p>
-                        <h2 class="card-title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id nisi labore minus magni blanditiis.
-                        </h2>
-         <button href="#" class="link card-button"><i class=" fa-solid fa-arrow-up"></i></button>
+              <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                  <img
+                    src="images/ahmad.png"
+                    alt="Card Image"
+                    class="card-image"
+                  />
+                  <p class="badge">Developer</p>
+                  <h2 class="card-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat id nisi labore minus magni blanditiis.
+                  </h2>
+                  <button href="#" class="link card-button">
+                    <i class="fa-solid fa-arrow-up"></i>
+                  </button>
+                </a>
+              </li>
 
-                    </a>
-                </li>
-                          <li class="card-item swiper-slide">
-                    <a href="#" class="card-link">
-                        <img src="/images/ahmad.png" alt="Card Image" class="card-image">
-                        <p class="badge">Developer</p>
-                        <h2 class="card-title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id nisi labore minus magni blanditiis.
-                        </h2>
-         <button href="#" class="link card-button"><i class=" fa-solid fa-arrow-up"></i></button>
-
-                    </a>
-                </li>
+              <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                  <img
+                    src="images/ahmad.png"
+                    alt="Card Image"
+                    class="card-image"
+                  />
+                  <p class="badge">Developer</p>
+                  <h2 class="card-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat id nisi labore minus magni blanditiis.
+                  </h2>
+                  <button href="#" class="link card-button">
+                    <i class="fa-solid fa-arrow-up"></i>
+                  </button>
+                </a>
+              </li>
             </ul>
-             <div class="swiper-pagination"></div>
-  <div class="swiper-slide-buttun swiper-button-prev"></div>
-  <div class="swiper-slide-buttun swiper-button-next"></div>
-        </div>
-</div>
 
-    </div>
-</section>
-<section class="contact" id="contact">
-   <div class="top-section">
-            <h2>Contact 
-                <span>Me</span>
-            </h2>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
         </div>
-<div class="container">
-    <div class="social-contact">
-        <h2>Follow Me</h2>
-        <div class="links">
-            <a href="mailto:akak678h@gmail.com"><i class="fa-solid fa-envelope"></i> akak678h@gmail.com</a>
-            <a href="tel:+963 997999343"><i class="fa-solid fa-phone"></i>+963 997999343</a>
-            <a href="3" target="_blank"><i class="fa-brands fa-facebook-f"></i>facebook</a>
-            <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i>twitter</a>
-            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i>instagram</a>
-        </div>
-    </div>
+      </div>
+    </section>
 
-    <form action="">
-        <div class="input-form">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
-            <input type="text" placeholder="Mopile number">
-            <input type="text" placeholder="subject">
-            <textarea name="" id="" rows="10" placeholder="your massege here ..."></textarea>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="top-section">
+        <h2>Contact <span>Me</span></h2>
+      </div>
+      <div class="container">
+        <div class="social-contact">
+          <h2>Follow Me</h2>
+          <div class="links">
+            <a href="mailto:akak678h@gmail.com"
+              ><i class="fa-solid fa-envelope"></i> akak678h@gmail.com</a
+            >
+            <a href="tel:+963997999343"
+              ><i class="fa-solid fa-phone"></i> +963 997999343</a
+            >
+            <a href="https://www.facebook.com/share/1F6qcxatF2/" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i> Facebook</a
+            >
+            <a href="#" target="_blank"
+              ><i class="fa-brands fa-twitter"></i> Twitter</a
+            >
+            <a
+              href="https://www.instagram.com/ahmad_esmail_it?igsh=MWFqd2Rla2s0NTN6ZQ=="
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i> Instagram</a
+            >
+          </div>
         </div>
-        <button class="btn">Send Message</button>
-    </form>
-</div>
-</section>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/js/script.js"></script>
-</body>
+        <form action="">
+          <div class="input-form">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Mobile Number" />
+            <input type="text" placeholder="Subject" />
+            <textarea rows="10" placeholder="Your message here ..."></textarea>
+          </div>
+          <button class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <button id="scrollTopBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
 </html>
